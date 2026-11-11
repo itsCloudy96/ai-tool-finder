@@ -1,0 +1,89 @@
+# Cloudy AI Tool Finder
+
+> Free quiz and directory that matches people with the right AI tools. 64 curated, real tools across 10 categories, with pricing last reviewed 2026-11-10. Run by Cloudy.
+
+Data is available as JSON at https://itscloudy96.github.io/ai-tool-finder/data/tools.json (fields: name, url, categories, pricing, pricingTier, freeTier, skillLevels, strengths, weaknesses, bestFor, tags).
+
+## Main pages
+- [Quiz](https://itscloudy96.github.io/ai-tool-finder/): 6-question AI tool recommender
+- [All tools](https://itscloudy96.github.io/ai-tool-finder/tools/): searchable directory
+- [Full tool list for LLMs](https://itscloudy96.github.io/ai-tool-finder/llms-full.txt)
+- [About & disclosure](https://itscloudy96.github.io/ai-tool-finder/about/)
+
+## Categories
+- [Coding & software engineering](https://itscloudy96.github.io/ai-tool-finder/category/code/): AI coding assistants, IDEs and CLI agents that help you write, refactor and ship software faster.
+- [Vibe coding & app builders](https://itscloudy96.github.io/ai-tool-finder/category/vibe-code/): Vibe coding tools and AI app builders that turn a prompt into a working app or website.
+- [AI agents & automation](https://itscloudy96.github.io/ai-tool-finder/category/agents/): Frameworks, SDKs and no-code platforms for building AI agents and automating workflows.
+- [Game development](https://itscloudy96.github.io/ai-tool-finder/category/games/): AI tools for game development: prototyping, assets, engines, 3D models, music and voice.
+- [Image generation](https://itscloudy96.github.io/ai-tool-finder/category/images/): AI image generators for art, concept design, logos, game assets and marketing visuals.
+- [Video generation & editing](https://itscloudy96.github.io/ai-tool-finder/category/video/): AI video generators and editors for shorts, trailers, avatars and devlogs.
+- [Music, voice & audio](https://itscloudy96.github.io/ai-tool-finder/category/audio/): AI music, voice and audio tools for songs, voiceovers, podcasts and game sound.
+- [Writing & chat assistants](https://itscloudy96.github.io/ai-tool-finder/category/write/): AI chat assistants and writing tools for drafting, brainstorming and everyday questions.
+- [Research & search](https://itscloudy96.github.io/ai-tool-finder/category/research/): AI research and answer engines that cite sources and help you learn faster.
+- [Productivity & meetings](https://itscloudy96.github.io/ai-tool-finder/category/productivity/): AI productivity tools for meetings, notes, slides and automating busywork.
+
+## Tools
+- [Cursor](https://itscloudy96.github.io/ai-tool-finder/tool/cursor/): Complex multi-file projects and daily vibe coding in a dedicated AI IDE. Pricing: Free (limited); Plus from ~$8/mo (Grok-only); Pro ~$16–30/mo; usage meters apply
+- [Claude Code](https://itscloudy96.github.io/ai-tool-finder/tool/claude-code/): Large codebases, terminal agents, and long-horizon debugging. Pricing: Minimal on Free; full access with Claude Pro from $17/mo annual ($20 monthly); Max $100–200/mo
+- [GitHub Copilot](https://itscloudy96.github.io/ai-tool-finder/tool/github-copilot/): Developers who want AI in VS Code/JetBrains without switching editors. Pricing: Free (2,000 completions + 50 chat/agent requests/mo); Pro $10/mo; Pro+ $39/mo
+- [OpenAI Codex](https://itscloudy96.github.io/ai-tool-finder/tool/codex/): OpenAI-first teams who want coding inside the ChatGPT stack. Pricing: Included with ChatGPT Plus ($20/mo) and Pro ($200/mo); API usage extra
+- [Devin Desktop (Windsurf)](https://itscloudy96.github.io/ai-tool-finder/tool/devin-desktop/): Budget-conscious AI IDE users and Cognition stack fans. Pricing: Free plan; Pro from ~$15–20/mo
+- [Replit Agent](https://itscloudy96.github.io/ai-tool-finder/tool/replit/): Beginners and fast browser-hosted prototypes. Pricing: Free Starter with daily Agent credits; Core from ~$17–20/mo annual
+- [v0 by Vercel](https://itscloudy96.github.io/ai-tool-finder/tool/v0/): Generating production-looking UI fast, then wiring logic elsewhere. Pricing: Free (~$5 credits/mo + daily message limits); Premium from $20/mo
+- [Bolt.new](https://itscloudy96.github.io/ai-tool-finder/tool/bolt/): Vibe coding full apps and simple browser games from a prompt. Pricing: Free includes token allowance; paid plans for more usage
+- [Lovable](https://itscloudy96.github.io/ai-tool-finder/tool/lovable/): Non-engineers shipping polished web app MVPs quickly. Pricing: Free with daily build credits; paid for higher quotas
+- [Aider](https://itscloudy96.github.io/ai-tool-finder/tool/aider/): CLI power users who want pay-as-you-go coding agents. Pricing: Free open-source CLI; you pay for the model API you connect
+- [Continue](https://itscloudy96.github.io/ai-tool-finder/tool/continue-dev/): Privacy-first or local-model coding setups. Pricing: Free open-source; bring your own models/API keys
+- [Amazon Q Developer](https://itscloudy96.github.io/ai-tool-finder/tool/amazon-q/): Teams deep in the AWS ecosystem. Pricing: Free (50 agentic requests + 1,000 lines/mo); Pro from $19/user/mo
+- [Tabnine](https://itscloudy96.github.io/ai-tool-finder/tool/tabnine/): Regulated enterprises needing private AI coding. Pricing: Free basic completions; Code Assistant Platform from $39/user/mo annual
+- [Zed AI](https://itscloudy96.github.io/ai-tool-finder/tool/zed/): Developers who want a fast native editor with AI assist. Pricing: Editor free; AI features tied to Zed account/plans
+- [ChatGPT](https://itscloudy96.github.io/ai-tool-finder/tool/chatgpt/): All-purpose chat, research, and OpenAI stack users. Pricing: Free; Go $8/mo; Plus $20/mo; Pro $100–500/mo tiers
+- [Claude](https://itscloudy96.github.io/ai-tool-finder/tool/claude/): Writing, coding, and thoughtful long-form work. Pricing: Free; Pro $20/mo ($17 annual); Max $100–200/mo
+- [Google Gemini](https://itscloudy96.github.io/ai-tool-finder/tool/gemini/): Google Workspace users needing chat + image/video in one place. Pricing: Free; Google AI Plus $4.99/mo; AI Pro $19.99/mo; Ultra $99.99–$199.99/mo
+- [Grok](https://itscloudy96.github.io/ai-tool-finder/tool/grok/): Real-time social/tech pulse and X-native creators. Pricing: Free limited; X Plus $8/mo; Premium $30/mo; Super $100/mo; Ultra $200/mo
+- [Perplexity](https://itscloudy96.github.io/ai-tool-finder/tool/perplexity/): Sourced research and internet deep dives. Pricing: Free; Pro ~$17/mo annual (~$20 monthly); Max ~$167/mo annual
+- [Microsoft Copilot](https://itscloudy96.github.io/ai-tool-finder/tool/microsoft-copilot/): Office workers living in Word, Excel, Outlook, Teams. Pricing: Free Copilot app; Microsoft 365 Personal $9.99/mo; Premium $19.99/mo
+- [DeepSeek](https://itscloudy96.github.io/ai-tool-finder/tool/deepseek/): Budget coding/reasoning and open-model experimentation. Pricing: App/web chat commonly free; API pay-per-token
+- [Poe](https://itscloudy96.github.io/ai-tool-finder/tool/poe/): Trying multiple AI models without many subscriptions. Pricing: Free; paid from ~$4.99–$19.99/mo depending on plan
+- [Meta AI](https://itscloudy96.github.io/ai-tool-finder/tool/meta-ai/): Casual free chat and social creative generation. Pricing: Free
+- [Notion AI](https://itscloudy96.github.io/ai-tool-finder/tool/notion-ai/): Teams already organizing work in Notion. Pricing: Included with Notion paid plans (varies by workspace plan)
+- [LangGraph](https://itscloudy96.github.io/ai-tool-finder/tool/langgraph/): Complex durable multi-agent workflows in Python/JS. Pricing: Open-source (MIT); LangSmith observability paid for teams
+- [CrewAI](https://itscloudy96.github.io/ai-tool-finder/tool/crewai/): Quick role-based multi-agent prototypes. Pricing: Open-source core; cloud/enterprise extras paid
+- [OpenAI Agents SDK](https://itscloudy96.github.io/ai-tool-finder/tool/openai-agents-sdk/): OpenAI-first apps needing small composable agent primitives. Pricing: Open-source SDK (MIT); pay OpenAI API usage
+- [Claude Agent SDK](https://itscloudy96.github.io/ai-tool-finder/tool/claude-agent-sdk/): Coding, research, and computer-use agents around Claude. Pricing: SDK available; usage via Claude API / Anthropic commercial terms
+- [Google ADK](https://itscloudy96.github.io/ai-tool-finder/tool/google-adk/): GCP-native multimodal agent systems. Pricing: Open-source (Apache 2.0); pay for Gemini/GCP runtime
+- [Mastra](https://itscloudy96.github.io/ai-tool-finder/tool/mastra/): TypeScript teams building production agents. Pricing: Open-source TypeScript framework
+- [Pydantic AI](https://itscloudy96.github.io/ai-tool-finder/tool/pydantic-ai/): Python teams who want typed, testable agents. Pricing: Open-source; pay for models/durable engines you attach
+- [LlamaIndex Workflows](https://itscloudy96.github.io/ai-tool-finder/tool/llamaindex/): Document-heavy retrieval agents and data pipelines. Pricing: Open-source; cloud extras paid
+- [n8n AI Agents](https://itscloudy96.github.io/ai-tool-finder/tool/n8n/): No/low-code agent automations across SaaS apps. Pricing: Free self-host; cloud plans paid
+- [Dify](https://itscloudy96.github.io/ai-tool-finder/tool/dify/): Teams building internal AI apps without heavy engineering. Pricing: Open-source self-host; cloud plans paid
+- [Midjourney](https://itscloudy96.github.io/ai-tool-finder/tool/midjourney/): Artistic concept art, stylized visuals, and moodboards. Pricing: No free tier; Basic from ~$10/mo
+- [FLUX (Black Forest Labs)](https://itscloudy96.github.io/ai-tool-finder/tool/flux/): Product photos, pipelines, and developer image APIs. Pricing: API ~$0.01+/image via partners; open weights for self-host; also via Krea/Freepik
+- [Ideogram](https://itscloudy96.github.io/ai-tool-finder/tool/ideogram/): Thumbnails, posters, and any image that must include readable text. Pricing: Free (~10 images/day); paid from ~$7/mo
+- [Adobe Firefly](https://itscloudy96.github.io/ai-tool-finder/tool/adobe-firefly/): Professionals needing commercially safe generative fill in Adobe apps. Pricing: Free limited credits; Standard from ~$9.99/mo; also via Creative Cloud
+- [Leonardo.AI](https://itscloudy96.github.io/ai-tool-finder/tool/leonardo/): Game art, characters, and consistent asset packs. Pricing: Free daily tokens; paid from ~$10–12/mo
+- [Stable Diffusion](https://itscloudy96.github.io/ai-tool-finder/tool/stable-diffusion/): Privacy-first local image generation and custom models. Pricing: Free self-hosted; commercial licenses/cloud hosts vary
+- [Recraft](https://itscloudy96.github.io/ai-tool-finder/tool/recraft/): Logos, icons, and vector brand assets. Pricing: Free with limits; Pro from ~$12–25/mo
+- [ChatGPT Images (GPT Image)](https://itscloudy96.github.io/ai-tool-finder/tool/chatgpt-images/): Quick image generation/editing without leaving chat. Pricing: Included with ChatGPT plans; API priced per image
+- [Runway](https://itscloudy96.github.io/ai-tool-finder/tool/runway/): Creators who need controllable AI video and editing in one app. Pricing: Limited free credits; Standard from ~$12/mo annual
+- [Kling AI](https://itscloudy96.github.io/ai-tool-finder/tool/kling/): Affordable high-motion photoreal video clips. Pricing: Free daily credits (watermark/non-commercial); Standard from ~$10/mo
+- [Google Veo](https://itscloudy96.github.io/ai-tool-finder/tool/veo/): High-quality cinematic clips with dialogue/SFX in one pass. Pricing: Limited in Gemini free; stronger access via Google AI Pro (~$19.99/mo) / Ultra
+- [Luma Dream Machine](https://itscloudy96.github.io/ai-tool-finder/tool/luma/): Quick cinematic image-to-video experiments. Pricing: Limited free; paid from ~$9.99/mo
+- [Pika](https://itscloudy96.github.io/ai-tool-finder/tool/pika/): Short social video effects and playful clips. Pricing: Free limited; paid from ~$8/mo
+- [HeyGen](https://itscloudy96.github.io/ai-tool-finder/tool/heygen/): Talking-head explainers, dubbing, and avatar presenters. Pricing: Onboarding credits; Creator from ~$29/mo
+- [Synthesia](https://itscloudy96.github.io/ai-tool-finder/tool/synthesia/): Corporate training and presenter-style videos. Pricing: Limited free; Starter from ~$18/mo annual
+- [CapCut AI](https://itscloudy96.github.io/ai-tool-finder/tool/capcut/): Editing AI clips into finished social videos. Pricing: Free feature-gated; Pro ~$9.99–$12.99/mo
+- [Rosebud AI](https://itscloudy96.github.io/ai-tool-finder/tool/rosebud/): Beginners who want a playable browser game today. Pricing: Free to start; paid for downloads/exports (Pro+ can export Windows builds)
+- [Godot MCP Studio](https://itscloudy96.github.io/ai-tool-finder/tool/godot-mcp-studio/): Indie/jam developers vibe-coding Godot games with agents. Pricing: Lite free; Pro ~€39 one-time (+ image credits)
+- [Unity AI (MCP + Assistant)](https://itscloudy96.github.io/ai-tool-finder/tool/unity-ai/): Unity developers connecting coding agents into the editor. Pricing: CLI/MCP/plugin free; in-editor assistant credits (included on Pro+; Personal trial then ~$10/mo)
+- [Suno](https://itscloudy96.github.io/ai-tool-finder/tool/suno/): Soundtrack sketches, game jams, and content music. Pricing: Free limited generations; Pro plans for commercial use and more songs
+- [ElevenLabs](https://itscloudy96.github.io/ai-tool-finder/tool/elevenlabs/): Voiceovers for videos, games, and agents. Pricing: Free limited; paid from entry creator plans upward
+- [Phaser + AI coding assistant](https://itscloudy96.github.io/ai-tool-finder/tool/phaser-cursor/): Vibe-coded browser games with Cursor/Claude Code. Pricing: Phaser open-source free; pair with Cursor/Claude Code/Copilot subscriptions
+- [Udio](https://itscloudy96.github.io/ai-tool-finder/tool/udio/): Sketching song ideas and soundtrack concepts fast. Pricing: Free (10 credits/day, 100/mo); Standard $10/mo; Pro $30/mo; credit packs from $3
+- [Descript](https://itscloudy96.github.io/ai-tool-finder/tool/descript/): Podcasts, YouTube edits and devlog videos. Pricing: Free (1 media hr/mo, watermark); Hobbyist $16/mo annual ($24 monthly); Creator $24/mo annual ($35 monthly)
+- [Otter.ai](https://itscloudy96.github.io/ai-tool-finder/tool/otter/): Meeting transcripts and searchable notes. Pricing: Basic free (300 min/mo); Pro $16.99/mo ($8.33/mo annual); Business $30/user/mo ($19.99 annual)
+- [Granola](https://itscloudy96.github.io/ai-tool-finder/tool/granola/): Clean AI meeting notes without a bot in the call. Pricing: Basic free (30-day history); Business $14/user/mo; Enterprise $35/user/mo
+- [Gamma](https://itscloudy96.github.io/ai-tool-finder/tool/gamma/): Pitch decks, game design docs and quick landing pages. Pricing: Free (400 one-time credits); Plus $9/mo annual ($12 monthly); Pro $18/mo annual ($25 monthly)
+- [Meshy](https://itscloudy96.github.io/ai-tool-finder/tool/meshy/): Quick 3D props and prototype assets for indie games. Pricing: Free (100 credits/mo, attribution); Pro $20/mo (1,000 credits)
+- [NotebookLM (Gemini Notebook)](https://itscloudy96.github.io/ai-tool-finder/tool/notebooklm/): Studying docs, papers and patch notes with citations. Pricing: Free with a Google account; higher limits with Google AI Pro ($19.99/mo)
+- [Zapier (AI by Zapier)](https://itscloudy96.github.io/ai-tool-finder/tool/zapier/): No-code automations and simple AI agents across your apps. Pricing: Free (100 tasks/mo, AI steps preview only); Professional from $19.99/mo annual ($29.99 monthly)

@@ -1,0 +1,2301 @@
+{
+  "generatedAt": "2026-11-10",
+  "timezone": "America/New_York",
+  "toolCount": 64,
+  "disclaimer": "Pricing and features change often. Facts are based on public sources checked around Nov 2025–Nov 2026; always verify on the vendor site before buying.",
+  "categories": {
+    "code": "Coding & software engineering",
+    "vibe-code": "Vibe coding & app builders",
+    "agents": "AI agents & automation",
+    "games": "Game development",
+    "images": "Image generation",
+    "video": "Video generation & editing",
+    "audio": "Music, voice & audio",
+    "write": "Writing & chat assistants",
+    "research": "Research & search",
+    "productivity": "Productivity & meetings"
+  },
+  "tools": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "categories": [
+        "code",
+        "vibe-code",
+        "agents"
+      ],
+      "pricing": "Free (limited); Plus from ~$8/mo (Grok-only); Pro ~$16–30/mo; usage meters apply",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "AI-native VS Code fork",
+        "Strong multi-file agent/Composer",
+        "Codebase indexing and MCP"
+      ],
+      "weaknesses": [
+        "Must switch editors",
+        "Usage meters can surprise heavy users",
+        "Steeper for non-developers"
+      ],
+      "bestFor": "Complex multi-file projects and daily vibe coding in a dedicated AI IDE",
+      "url": "https://cursor.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "ide",
+        "agent",
+        "mcp"
+      ],
+      "sourceIds": [
+        1,
+        2,
+        18
+      ]
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "categories": [
+        "code",
+        "vibe-code",
+        "agents"
+      ],
+      "pricing": "Minimal on Free; full access with Claude Pro from $17/mo annual ($20 monthly); Max $100–200/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "1M-token context for large repos",
+        "Terminal-first autonomous refactors",
+        "Strong planning and git workflows"
+      ],
+      "weaknesses": [
+        "Free tier too limited for real coding",
+        "CLI learning curve",
+        "Shares Claude chat usage pool"
+      ],
+      "bestFor": "Large codebases, terminal agents, and long-horizon debugging",
+      "url": "https://claude.ai/code",
+      "affiliateParam": "ref",
+      "tags": [
+        "cli",
+        "agent",
+        "anthropic"
+      ],
+      "sourceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Free (2,000 completions + 50 chat/agent requests/mo); Pro $10/mo; Pro+ $39/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Stays in your existing IDE",
+        "Best value paid coding AI",
+        "Native GitHub PR/issue workflows"
+      ],
+      "weaknesses": [
+        "Less deep codebase context than Cursor/Claude Code",
+        "Agent depth more scoped"
+      ],
+      "bestFor": "Developers who want AI in VS Code/JetBrains without switching editors",
+      "url": "https://github.com/features/copilot",
+      "affiliateParam": "ref",
+      "tags": [
+        "ide-extension",
+        "github"
+      ],
+      "sourceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "OpenAI Codex",
+      "categories": [
+        "code",
+        "vibe-code",
+        "agents"
+      ],
+      "pricing": "Included with ChatGPT Plus ($20/mo) and Pro ($200/mo); API usage extra",
+      "pricingTier": "paid",
+      "freeTier": false,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Runs in ChatGPT, CLI, and IDE extensions",
+        "Agentic plan-run-iterate loop",
+        "Same login as ChatGPT"
+      ],
+      "weaknesses": [
+        "Tied to OpenAI models",
+        "Heavy use may need Pro or API"
+      ],
+      "bestFor": "OpenAI-first teams who want coding inside the ChatGPT stack",
+      "url": "https://chatgpt.com/codex",
+      "affiliateParam": "ref",
+      "tags": [
+        "openai",
+        "agent",
+        "cli"
+      ],
+      "sourceIds": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "devin-desktop",
+      "name": "Devin Desktop (Windsurf)",
+      "categories": [
+        "code",
+        "vibe-code"
+      ],
+      "pricing": "Free plan; Pro from ~$15–20/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "AI-native IDE with Cascade/Devin Local",
+        "Persists project context across sessions",
+        "Unlimited Tab on free/paid"
+      ],
+      "weaknesses": [
+        "Brand/naming churn (Windsurf to Devin Desktop)",
+        "Smaller community than Cursor"
+      ],
+      "bestFor": "Budget-conscious AI IDE users and Cognition stack fans",
+      "url": "https://windsurf.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "ide",
+        "cognition"
+      ],
+      "sourceIds": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit Agent",
+      "categories": [
+        "code",
+        "vibe-code",
+        "games"
+      ],
+      "pricing": "Free Starter with daily Agent credits; Core from ~$17–20/mo annual",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Browser IDE, no local setup",
+        "Agent asks clarifying questions first",
+        "Build and host in one place"
+      ],
+      "weaknesses": [
+        "Less stack control than local IDEs",
+        "Agent occasionally over-claims fixes"
+      ],
+      "bestFor": "Beginners and fast browser-hosted prototypes",
+      "url": "https://replit.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "browser-ide",
+        "hosting"
+      ],
+      "sourceIds": [
+        1,
+        16
+      ]
+    },
+    {
+      "id": "v0",
+      "name": "v0 by Vercel",
+      "categories": [
+        "code",
+        "vibe-code"
+      ],
+      "pricing": "Free (~$5 credits/mo + daily message limits); Premium from $20/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Polished React/Tailwind UI generation",
+        "Shows plan before writing code",
+        "Great for landing pages and dashboards"
+      ],
+      "weaknesses": [
+        "Frontend/UI focused, not full-stack",
+        "Restrictive free plan"
+      ],
+      "bestFor": "Generating production-looking UI fast, then wiring logic elsewhere",
+      "url": "https://v0.dev",
+      "affiliateParam": "ref",
+      "tags": [
+        "ui",
+        "react",
+        "vercel"
+      ],
+      "sourceIds": [
+        1,
+        19,
+        16
+      ]
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt.new",
+      "categories": [
+        "code",
+        "vibe-code",
+        "games"
+      ],
+      "pricing": "Free includes token allowance; paid plans for more usage",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Prompt-to-full-stack apps in browser",
+        "Fast iteration for demos",
+        "Good for beginners shipping apps/games"
+      ],
+      "weaknesses": [
+        "Token limits on free",
+        "Less control for large production apps"
+      ],
+      "bestFor": "Vibe coding full apps and simple browser games from a prompt",
+      "url": "https://bolt.new",
+      "affiliateParam": "ref",
+      "tags": [
+        "vibe-coding",
+        "browser"
+      ],
+      "sourceIds": [
+        16,
+        17,
+        13
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "categories": [
+        "code",
+        "vibe-code"
+      ],
+      "pricing": "Free with daily build credits; paid for higher quotas",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Chat-to-app builder",
+        "Quick MVPs and landing sites",
+        "Friendly for non-engineers"
+      ],
+      "weaknesses": [
+        "Credit limits",
+        "Not ideal for complex monorepos"
+      ],
+      "bestFor": "Non-engineers shipping polished web app MVPs quickly",
+      "url": "https://lovable.dev",
+      "affiliateParam": "ref",
+      "tags": [
+        "vibe-coding",
+        "mvp"
+      ],
+      "sourceIds": [
+        16,
+        14
+      ]
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Free open-source CLI; you pay for the model API you connect",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Git-first diffs",
+        "Bring your own keys/models",
+        "Strong multi-file refactors"
+      ],
+      "weaknesses": [
+        "No polished GUI",
+        "Requires API keys and terminal comfort"
+      ],
+      "bestFor": "CLI power users who want pay-as-you-go coding agents",
+      "url": "https://aider.chat",
+      "affiliateParam": "ref",
+      "tags": [
+        "cli",
+        "open-source",
+        "git"
+      ],
+      "sourceIds": [
+        3
+      ]
+    },
+    {
+      "id": "continue-dev",
+      "name": "Continue",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Free open-source; bring your own models/API keys",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Open-source VS Code/JetBrains extension",
+        "Local or hosted models",
+        "MCP support"
+      ],
+      "weaknesses": [
+        "You manage models and quality",
+        "Less turnkey than Cursor"
+      ],
+      "bestFor": "Privacy-first or local-model coding setups",
+      "url": "https://continue.dev",
+      "affiliateParam": "ref",
+      "tags": [
+        "open-source",
+        "ide-extension",
+        "local"
+      ],
+      "sourceIds": [
+        3
+      ]
+    },
+    {
+      "id": "amazon-q",
+      "name": "Amazon Q Developer",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Free (50 agentic requests + 1,000 lines/mo); Pro from $19/user/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "AWS account + docs context",
+        "IDE and CLI",
+        "Enterprise compliance options"
+      ],
+      "weaknesses": [
+        "AWS-centric",
+        "Free tier capped"
+      ],
+      "bestFor": "Teams deep in the AWS ecosystem",
+      "url": "https://aws.amazon.com/q/developer/",
+      "affiliateParam": "ref",
+      "tags": [
+        "aws",
+        "enterprise"
+      ],
+      "sourceIds": [
+        1
+      ]
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Free basic completions; Code Assistant Platform from $39/user/mo annual",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Zero code retention options",
+        "VPC/on-prem/air-gapped",
+        "Team governance"
+      ],
+      "weaknesses": [
+        "Expensive vs consumer tools",
+        "Less agentic than Cursor/Claude Code"
+      ],
+      "bestFor": "Regulated enterprises needing private AI coding",
+      "url": "https://www.tabnine.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "enterprise",
+        "privacy"
+      ],
+      "sourceIds": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "zed",
+      "name": "Zed AI",
+      "categories": [
+        "code"
+      ],
+      "pricing": "Editor free; AI features tied to Zed account/plans",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Fast native editor",
+        "Collaborative editing",
+        "Growing AI assistance"
+      ],
+      "weaknesses": [
+        "Smaller AI ecosystem than Cursor",
+        "Fewer agent tutorials"
+      ],
+      "bestFor": "Developers who want a fast native editor with AI assist",
+      "url": "https://zed.dev",
+      "affiliateParam": "ref",
+      "tags": [
+        "ide",
+        "editor"
+      ],
+      "sourceIds": [
+        5
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "categories": [
+        "write",
+        "research",
+        "code",
+        "images"
+      ],
+      "pricing": "Free; Go $8/mo; Plus $20/mo; Pro $100–500/mo tiers",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Broadest general assistant",
+        "Deep Research and Agent modes",
+        "Huge ecosystem (Codex, GPTs, apps)"
+      ],
+      "weaknesses": [
+        "Plan ladder can get expensive",
+        "Writing style sometimes generic vs Claude"
+      ],
+      "bestFor": "All-purpose chat, research, and OpenAI stack users",
+      "url": "https://chatgpt.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "llm",
+        "openai",
+        "agent"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "categories": [
+        "write",
+        "code",
+        "research",
+        "agents"
+      ],
+      "pricing": "Free; Pro $20/mo ($17 annual); Max $100–200/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Excellent writing and coding",
+        "Artifacts + Claude Code",
+        "Strong long-context reasoning"
+      ],
+      "weaknesses": [
+        "Usage limits on Pro for heavy users",
+        "Fewer consumer integrations than ChatGPT/Gemini"
+      ],
+      "bestFor": "Writing, coding, and thoughtful long-form work",
+      "url": "https://claude.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "llm",
+        "anthropic",
+        "writing"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "categories": [
+        "write",
+        "research",
+        "images",
+        "video",
+        "code"
+      ],
+      "pricing": "Free; Google AI Plus $4.99/mo; AI Pro $19.99/mo; Ultra $99.99–$199.99/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Deep Google Workspace integration",
+        "Strong multimodal (images + Veo video)",
+        "Good value entry paid tier"
+      ],
+      "weaknesses": [
+        "Best when you live in Google apps",
+        "Feature naming churn"
+      ],
+      "bestFor": "Google Workspace users needing chat + image/video in one place",
+      "url": "https://gemini.google.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "llm",
+        "google",
+        "multimodal"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "categories": [
+        "write",
+        "research",
+        "images",
+        "video",
+        "code"
+      ],
+      "pricing": "Free limited; X Plus $8/mo; Premium $30/mo; Super $100/mo; Ultra $200/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Real-time X firehose context",
+        "Grok Imagine for images/video",
+        "Competitive API pricing / large context"
+      ],
+      "weaknesses": [
+        "Tied to X subscription ladder",
+        "Grok Bot not on Plus"
+      ],
+      "bestFor": "Real-time social/tech pulse and X-native creators",
+      "url": "https://grok.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "llm",
+        "xai",
+        "realtime"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "categories": [
+        "research",
+        "write"
+      ],
+      "pricing": "Free; Pro ~$17/mo annual (~$20 monthly); Max ~$167/mo annual",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Citations by default",
+        "Search/Research/Labs modes",
+        "Premium data sources on Pro"
+      ],
+      "weaknesses": [
+        "Not a full coding IDE",
+        "Advanced Computer features need Pro/Max"
+      ],
+      "bestFor": "Sourced research and internet deep dives",
+      "url": "https://www.perplexity.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "research",
+        "search",
+        "citations"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "categories": [
+        "write",
+        "research",
+        "productivity"
+      ],
+      "pricing": "Free Copilot app; Microsoft 365 Personal $9.99/mo; Premium $19.99/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Microsoft 365 integration",
+        "Copilot Vision",
+        "Office-native drafting"
+      ],
+      "weaknesses": [
+        "Deepest value locked in M365",
+        "Less developer-agent depth than Cursor/Claude"
+      ],
+      "bestFor": "Office workers living in Word, Excel, Outlook, Teams",
+      "url": "https://copilot.microsoft.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "microsoft",
+        "office"
+      ],
+      "sourceIds": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "categories": [
+        "code",
+        "write",
+        "research"
+      ],
+      "pricing": "App/web chat commonly free; API pay-per-token",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Strong open-model reasoning",
+        "Toggleable deep thinking",
+        "Cheap API for builders"
+      ],
+      "weaknesses": [
+        "Consumer UX less polished than ChatGPT/Claude",
+        "Trust/compliance concerns for some orgs"
+      ],
+      "bestFor": "Budget coding/reasoning and open-model experimentation",
+      "url": "https://www.deepseek.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "llm",
+        "open",
+        "api"
+      ],
+      "sourceIds": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "poe",
+      "name": "Poe",
+      "categories": [
+        "write",
+        "research",
+        "images",
+        "video"
+      ],
+      "pricing": "Free; paid from ~$4.99–$19.99/mo depending on plan",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Many models in one place",
+        "Side-by-side comparisons",
+        "Points-based compute"
+      ],
+      "weaknesses": [
+        "Not specialized for coding agents",
+        "Quality depends on which model you pick"
+      ],
+      "bestFor": "Trying multiple AI models without many subscriptions",
+      "url": "https://poe.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "multi-model",
+        "aggregator"
+      ],
+      "sourceIds": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "categories": [
+        "write",
+        "images"
+      ],
+      "pricing": "Free",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner"
+      ],
+      "strengths": [
+        "Free chat + image + short video vibes",
+        "Lives in Meta apps",
+        "Low barrier"
+      ],
+      "weaknesses": [
+        "Less powerful for serious coding/research",
+        "Privacy tied to Meta ecosystem"
+      ],
+      "bestFor": "Casual free chat and social creative generation",
+      "url": "https://www.meta.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "free",
+        "social"
+      ],
+      "sourceIds": [
+        4
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "categories": [
+        "productivity",
+        "write"
+      ],
+      "pricing": "Included with Notion paid plans (varies by workspace plan)",
+      "pricingTier": "paid",
+      "freeTier": false,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Writes inside your docs/wiki",
+        "Good for notes to drafts",
+        "Team knowledge context"
+      ],
+      "weaknesses": [
+        "Requires Notion subscription",
+        "Weaker than Claude/ChatGPT for hard reasoning"
+      ],
+      "bestFor": "Teams already organizing work in Notion",
+      "url": "https://www.notion.com/product/ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "writing",
+        "docs"
+      ],
+      "sourceIds": [
+        4
+      ]
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source (MIT); LangSmith observability paid for teams",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "advanced"
+      ],
+      "strengths": [
+        "Stateful graph orchestration",
+        "Checkpoints and human-in-the-loop",
+        "Provider-flexible"
+      ],
+      "weaknesses": [
+        "Steeper learning curve",
+        "Overkill for simple agents"
+      ],
+      "bestFor": "Complex durable multi-agent workflows in Python/JS",
+      "url": "https://www.langchain.com/langgraph",
+      "affiliateParam": "ref",
+      "tags": [
+        "framework",
+        "orchestration",
+        "open-source"
+      ],
+      "sourceIds": [
+        11,
+        12,
+        20
+      ]
+    },
+    {
+      "id": "crewai",
+      "name": "CrewAI",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source core; cloud/enterprise extras paid",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Intuitive role-based crews",
+        "Fast multi-agent prototypes",
+        "MCP support"
+      ],
+      "weaknesses": [
+        "Can burn tokens with many agents",
+        "Less explicit graphs than LangGraph"
+      ],
+      "bestFor": "Quick role-based multi-agent prototypes",
+      "url": "https://www.crewai.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "framework",
+        "multi-agent"
+      ],
+      "sourceIds": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source SDK (MIT); pay OpenAI API usage",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Lightweight handoffs and guardrails",
+        "Clean primitives",
+        "OpenAI-first"
+      ],
+      "weaknesses": [
+        "Best with OpenAI models",
+        "Tracing may send data to OpenAI"
+      ],
+      "bestFor": "OpenAI-first apps needing small composable agent primitives",
+      "url": "https://openai.github.io/openai-agents-python/",
+      "affiliateParam": "ref",
+      "tags": [
+        "sdk",
+        "openai"
+      ],
+      "sourceIds": [
+        11,
+        12,
+        20
+      ]
+    },
+    {
+      "id": "claude-agent-sdk",
+      "name": "Claude Agent SDK",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "SDK available; usage via Claude API / Anthropic commercial terms",
+      "pricingTier": "paid",
+      "freeTier": false,
+      "skillLevels": [
+        "advanced"
+      ],
+      "strengths": [
+        "Built-in file/shell/MCP tools",
+        "Permissions, hooks, subagents",
+        "Strong coding/computer-use agents"
+      ],
+      "weaknesses": [
+        "Claude-oriented",
+        "Commercial terms apply"
+      ],
+      "bestFor": "Coding, research, and computer-use agents around Claude",
+      "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-agent-sdk/overview",
+      "affiliateParam": "ref",
+      "tags": [
+        "sdk",
+        "anthropic",
+        "computer-use"
+      ],
+      "sourceIds": [
+        12,
+        20
+      ]
+    },
+    {
+      "id": "google-adk",
+      "name": "Google ADK",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source (Apache 2.0); pay for Gemini/GCP runtime",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "advanced"
+      ],
+      "strengths": [
+        "Multi-language (Python/TS/Go/Java)",
+        "Workflow + graph agents",
+        "GCP/Gemini native"
+      ],
+      "weaknesses": [
+        "Best fit is Google Cloud",
+        "Younger ecosystem than LangChain"
+      ],
+      "bestFor": "GCP-native multimodal agent systems",
+      "url": "https://google.github.io/adk-docs/",
+      "affiliateParam": "ref",
+      "tags": [
+        "sdk",
+        "google",
+        "gcp"
+      ],
+      "sourceIds": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "mastra",
+      "name": "Mastra",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source TypeScript framework",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "TS-native agents + workflows",
+        "Memory and Studio",
+        "Suspend-and-resume patterns"
+      ],
+      "weaknesses": [
+        "TypeScript-focused",
+        "Smaller community than LangChain"
+      ],
+      "bestFor": "TypeScript teams building production agents",
+      "url": "https://mastra.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "typescript",
+        "framework"
+      ],
+      "sourceIds": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "pydantic-ai",
+      "name": "Pydantic AI",
+      "categories": [
+        "agents",
+        "code"
+      ],
+      "pricing": "Open-source; pay for models/durable engines you attach",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "advanced"
+      ],
+      "strengths": [
+        "Type-safe Python agents",
+        "Structured outputs",
+        "Durable execution integrations"
+      ],
+      "weaknesses": [
+        "Requires Python expertise",
+        "Orchestration extras are DIY"
+      ],
+      "bestFor": "Python teams who want typed, testable agents",
+      "url": "https://ai.pydantic.dev",
+      "affiliateParam": "ref",
+      "tags": [
+        "python",
+        "typed",
+        "framework"
+      ],
+      "sourceIds": [
+        12
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "name": "LlamaIndex Workflows",
+      "categories": [
+        "agents",
+        "research",
+        "code"
+      ],
+      "pricing": "Open-source; cloud extras paid",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Event-driven doc/data pipelines",
+        "Strong RAG heritage",
+        "Typed events/steps"
+      ],
+      "weaknesses": [
+        "Heavier for simple chatbots",
+        "Learning curve for workflows"
+      ],
+      "bestFor": "Document-heavy retrieval agents and data pipelines",
+      "url": "https://www.llamaindex.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "rag",
+        "framework"
+      ],
+      "sourceIds": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n AI Agents",
+      "categories": [
+        "agents",
+        "productivity"
+      ],
+      "pricing": "Free self-host; cloud plans paid",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Visual workflows + AI nodes",
+        "Self-hostable",
+        "Great for ops automations"
+      ],
+      "weaknesses": [
+        "Not a coding IDE",
+        "Complex agents need careful design"
+      ],
+      "bestFor": "No/low-code agent automations across SaaS apps",
+      "url": "https://n8n.io",
+      "affiliateParam": "ref",
+      "tags": [
+        "automation",
+        "low-code"
+      ],
+      "sourceIds": [
+        11
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "categories": [
+        "agents",
+        "write"
+      ],
+      "pricing": "Open-source self-host; cloud plans paid",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Visual LLM app builder",
+        "RAG and agents in one UI",
+        "Good for internal tools"
+      ],
+      "weaknesses": [
+        "Less flexible than code SDKs for complex agents",
+        "Hosting ops if self-hosted"
+      ],
+      "bestFor": "Teams building internal AI apps without heavy engineering",
+      "url": "https://dify.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "low-code",
+        "rag"
+      ],
+      "sourceIds": [
+        11
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "categories": [
+        "images",
+        "video"
+      ],
+      "pricing": "No free tier; Basic from ~$10/mo",
+      "pricingTier": "paid",
+      "freeTier": false,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Top artistic/cinematic stills (V8)",
+        "Strong style control",
+        "Midjourney Video for animating stills"
+      ],
+      "weaknesses": [
+        "No classic public API",
+        "Weak text-in-image vs Ideogram",
+        "Paid-only"
+      ],
+      "bestFor": "Artistic concept art, stylized visuals, and moodboards",
+      "url": "https://www.midjourney.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "art"
+      ],
+      "sourceIds": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "flux",
+      "name": "FLUX (Black Forest Labs)",
+      "categories": [
+        "images"
+      ],
+      "pricing": "API ~$0.01+/image via partners; open weights for self-host; also via Krea/Freepik",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Photorealism leader",
+        "API-first / LoRA fine-tuning",
+        "Open-weight options"
+      ],
+      "weaknesses": [
+        "No polished first-party consumer app",
+        "Quality depends on host"
+      ],
+      "bestFor": "Product photos, pipelines, and developer image APIs",
+      "url": "https://bfl.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "api",
+        "open-weights"
+      ],
+      "sourceIds": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "categories": [
+        "images"
+      ],
+      "pricing": "Free (~10 images/day); paid from ~$7/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Best-in-class text in images",
+        "Posters, logos, thumbnails",
+        "Affordable"
+      ],
+      "weaknesses": [
+        "Less artistic than Midjourney",
+        "Not a video tool"
+      ],
+      "bestFor": "Thumbnails, posters, and any image that must include readable text",
+      "url": "https://ideogram.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "text-in-image"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "categories": [
+        "images",
+        "video"
+      ],
+      "pricing": "Free limited credits; Standard from ~$9.99/mo; also via Creative Cloud",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Commercial IP indemnification",
+        "Photoshop/Illustrator integration",
+        "Brand-safe training data story"
+      ],
+      "weaknesses": [
+        "Less cutting-edge aesthetics than Midjourney/FLUX for some styles"
+      ],
+      "bestFor": "Professionals needing commercially safe generative fill in Adobe apps",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "enterprise",
+        "adobe"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.AI",
+      "categories": [
+        "images",
+        "games"
+      ],
+      "pricing": "Free daily tokens; paid from ~$10–12/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Game assets and concept art",
+        "Character consistency",
+        "Custom model training"
+      ],
+      "weaknesses": [
+        "Token economy to learn",
+        "Video secondary vs dedicated video tools"
+      ],
+      "bestFor": "Game art, characters, and consistent asset packs",
+      "url": "https://leonardo.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "games",
+        "assets"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "categories": [
+        "images"
+      ],
+      "pricing": "Free self-hosted; commercial licenses/cloud hosts vary",
+      "pricingTier": "free",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Fully local/private",
+        "Huge LoRA/community model ecosystem",
+        "Unlimited when self-hosted"
+      ],
+      "weaknesses": [
+        "Setup friction",
+        "Quality depends on model choice and GPU"
+      ],
+      "bestFor": "Privacy-first local image generation and custom models",
+      "url": "https://stability.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "open-source",
+        "local"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "categories": [
+        "images"
+      ],
+      "pricing": "Free with limits; Pro from ~$12–25/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "True SVG/vector output",
+        "Logos and icons",
+        "Brand design focus"
+      ],
+      "weaknesses": [
+        "Not for photoreal scenes",
+        "Paid for heavy use"
+      ],
+      "bestFor": "Logos, icons, and vector brand assets",
+      "url": "https://www.recraft.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "vector",
+        "design"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "chatgpt-images",
+      "name": "ChatGPT Images (GPT Image)",
+      "categories": [
+        "images"
+      ],
+      "pricing": "Included with ChatGPT plans; API priced per image",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Convenient inside ChatGPT",
+        "Strong editing/inpainting",
+        "Good text rendering for many use cases"
+      ],
+      "weaknesses": [
+        "Limits depend on ChatGPT plan",
+        "Less style control than Midjourney"
+      ],
+      "bestFor": "Quick image generation/editing without leaving chat",
+      "url": "https://chatgpt.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "image",
+        "openai"
+      ],
+      "sourceIds": [
+        10
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Limited free credits; Standard from ~$12/mo annual",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Gen-4.5 camera/motion brush control",
+        "Character consistency",
+        "Built-in video editor"
+      ],
+      "weaknesses": [
+        "Credits burn fast on long clips",
+        "Prompt accuracy behind Veo in some tests"
+      ],
+      "bestFor": "Creators who need controllable AI video and editing in one app",
+      "url": "https://runwayml.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "editor"
+      ],
+      "sourceIds": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Free daily credits (watermark/non-commercial); Standard from ~$10/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Strong photoreal motion (Kling 3.0)",
+        "Good value / volume",
+        "Native audio options"
+      ],
+      "weaknesses": [
+        "Free tier watermarked",
+        "Less camera-edit control than Runway"
+      ],
+      "bestFor": "Affordable high-motion photoreal video clips",
+      "url": "https://kling.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "value"
+      ],
+      "sourceIds": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "veo",
+      "name": "Google Veo",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Limited in Gemini free; stronger access via Google AI Pro (~$19.99/mo) / Ultra",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Top cinematic quality + native audio",
+        "Strong prompt adherence",
+        "4K options in ecosystem"
+      ],
+      "weaknesses": [
+        "Best experience needs Google AI paid plans",
+        "Less specialized editing suite than Runway"
+      ],
+      "bestFor": "High-quality cinematic clips with dialogue/SFX in one pass",
+      "url": "https://deepmind.google/models/veo/",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "google"
+      ],
+      "sourceIds": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma Dream Machine",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Limited free; paid from ~$9.99/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Fast image-to-video",
+        "Keyframe control",
+        "Cinematic look"
+      ],
+      "weaknesses": [
+        "Shorter clips focus",
+        "Heavy competition from Veo/Kling/Runway"
+      ],
+      "bestFor": "Quick cinematic image-to-video experiments",
+      "url": "https://lumalabs.ai/dream-machine",
+      "affiliateParam": "ref",
+      "tags": [
+        "video"
+      ],
+      "sourceIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Free limited; paid from ~$8/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner"
+      ],
+      "strengths": [
+        "Fun effects (object swap, lip sync)",
+        "Fast social clips",
+        "Approachable UI"
+      ],
+      "weaknesses": [
+        "Not for long-form production",
+        "Less control than Runway"
+      ],
+      "bestFor": "Short social video effects and playful clips",
+      "url": "https://pika.art",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "social"
+      ],
+      "sourceIds": [
+        10
+      ]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Onboarding credits; Creator from ~$29/mo",
+      "pricingTier": "paid",
+      "freeTier": false,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "AI avatars and talking heads",
+        "Lip sync + multilingual dubbing",
+        "Marketing/training videos"
+      ],
+      "weaknesses": [
+        "Avatar look can feel uncanny",
+        "Pricier than clip generators"
+      ],
+      "bestFor": "Talking-head explainers, dubbing, and avatar presenters",
+      "url": "https://www.heygen.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "avatar"
+      ],
+      "sourceIds": [
+        9
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Limited free; Starter from ~$18/mo annual",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Corporate training avatars",
+        "Script-to-video",
+        "Enterprise features"
+      ],
+      "weaknesses": [
+        "Not for cinematic/creative film",
+        "Less flexible than general video models"
+      ],
+      "bestFor": "Corporate training and presenter-style videos",
+      "url": "https://www.synthesia.io",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "enterprise",
+        "avatar"
+      ],
+      "sourceIds": [
+        9
+      ]
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut AI",
+      "categories": [
+        "video"
+      ],
+      "pricing": "Free feature-gated; Pro ~$9.99–$12.99/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Editing + captions + templates",
+        "Access to models like Seedance/Veo via ecosystem",
+        "Great for social workflows"
+      ],
+      "weaknesses": [
+        "Not a frontier model lab itself",
+        "Some AI features paywalled"
+      ],
+      "bestFor": "Editing AI clips into finished social videos",
+      "url": "https://www.capcut.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "video",
+        "editing",
+        "social"
+      ],
+      "sourceIds": [
+        9
+      ]
+    },
+    {
+      "id": "rosebud",
+      "name": "Rosebud AI",
+      "categories": [
+        "games",
+        "vibe-code"
+      ],
+      "pricing": "Free to start; paid for downloads/exports (Pro+ can export Windows builds)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner"
+      ],
+      "strengths": [
+        "Built specifically for AI game generation",
+        "Hosts playable games",
+        "No-code path to a playable link"
+      ],
+      "weaknesses": [
+        "Less ownership/control than Godot+agent stack",
+        "Not for complex commercial engines"
+      ],
+      "bestFor": "Beginners who want a playable browser game today",
+      "url": "https://rosebud.ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "games",
+        "no-code"
+      ],
+      "sourceIds": [
+        13
+      ]
+    },
+    {
+      "id": "godot-mcp-studio",
+      "name": "Godot MCP Studio",
+      "categories": [
+        "games",
+        "code",
+        "agents"
+      ],
+      "pricing": "Lite free; Pro ~€39 one-time (+ image credits)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Lets Claude Code/Cursor drive Godot live",
+        "Playtest tools on Pro",
+        "Pairs with text-friendly Godot projects"
+      ],
+      "weaknesses": [
+        "Godot-specific",
+        "Still need a coding agent subscription"
+      ],
+      "bestFor": "Indie/jam developers vibe-coding Godot games with agents",
+      "url": "https://www.godotmcpstudio.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "games",
+        "godot",
+        "mcp"
+      ],
+      "sourceIds": [
+        13,
+        15
+      ]
+    },
+    {
+      "id": "unity-ai",
+      "name": "Unity AI (MCP + Assistant)",
+      "categories": [
+        "games",
+        "code",
+        "agents"
+      ],
+      "pricing": "CLI/MCP/plugin free; in-editor assistant credits (included on Pro+; Personal trial then ~$10/mo)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Official MCP server/CLI for Unity 6+",
+        "Works with Claude Code/Codex/Cursor",
+        "Editor + agent loop"
+      ],
+      "weaknesses": [
+        "Requires Unity 6+",
+        "Assistant credits can add cost on Personal"
+      ],
+      "bestFor": "Unity developers connecting coding agents into the editor",
+      "url": "https://unity.com/ai",
+      "affiliateParam": "ref",
+      "tags": [
+        "games",
+        "unity",
+        "mcp"
+      ],
+      "sourceIds": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "categories": [
+        "audio",
+        "games"
+      ],
+      "pricing": "Free limited generations; Pro plans for commercial use and more songs",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Fast text-to-music songs",
+        "Good for game jams and content",
+        "Simple UX"
+      ],
+      "weaknesses": [
+        "Music category niche",
+        "License/commercial rules matter"
+      ],
+      "bestFor": "Soundtrack sketches, game jams, and content music",
+      "url": "https://suno.com",
+      "affiliateParam": "ref",
+      "tags": [
+        "music",
+        "creative"
+      ],
+      "sourceIds": [
+        9
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "categories": [
+        "audio",
+        "video",
+        "games"
+      ],
+      "pricing": "Free limited; paid from entry creator plans upward",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "High-quality AI voices",
+        "Cloning and multilingual",
+        "Great for games/video VO"
+      ],
+      "weaknesses": [
+        "Voice cloning ethics/compliance",
+        "Credits for heavy use"
+      ],
+      "bestFor": "Voiceovers for videos, games, and agents",
+      "url": "https://elevenlabs.io",
+      "affiliateParam": "ref",
+      "tags": [
+        "audio",
+        "voice"
+      ],
+      "sourceIds": [
+        9
+      ]
+    },
+    {
+      "id": "phaser-cursor",
+      "name": "Phaser + AI coding assistant",
+      "categories": [
+        "games",
+        "code",
+        "vibe-code"
+      ],
+      "pricing": "Phaser open-source free; pair with Cursor/Claude Code/Copilot subscriptions",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Browser games as shareable links",
+        "Dense training data for agents",
+        "Simple deploy path"
+      ],
+      "weaknesses": [
+        "Not a single product (stack)",
+        "You assemble tooling"
+      ],
+      "bestFor": "Vibe-coded browser games with Cursor/Claude Code",
+      "url": "https://phaser.io",
+      "affiliateParam": "ref",
+      "tags": [
+        "games",
+        "browser",
+        "stack"
+      ],
+      "sourceIds": [
+        13,
+        14
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        21
+      ],
+      "id": "udio",
+      "name": "Udio",
+      "categories": [
+        "audio",
+        "games"
+      ],
+      "pricing": "Free (10 credits/day, 100/mo); Standard $10/mo; Pro $30/mo; credit packs from $3",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Full songs with vocals from a text prompt",
+        "Lyric editor and song extensions",
+        "Cheap credit packs that never expire"
+      ],
+      "weaknesses": [
+        "Audio/stem downloads currently disabled on all plans",
+        "Subscription credits do not roll over"
+      ],
+      "bestFor": "Sketching song ideas and soundtrack concepts fast",
+      "url": "https://www.udio.com",
+      "tags": [
+        "music",
+        "creative"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        22
+      ],
+      "id": "descript",
+      "name": "Descript",
+      "categories": [
+        "audio",
+        "video",
+        "productivity"
+      ],
+      "pricing": "Free (1 media hr/mo, watermark); Hobbyist $16/mo annual ($24 monthly); Creator $24/mo annual ($35 monthly)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Edit video by editing the transcript",
+        "Studio Sound and filler-word removal",
+        "Underlord AI co-editor"
+      ],
+      "weaknesses": [
+        "Free exports are 720p with a watermark",
+        "Hobbyist plan cannot buy top-ups"
+      ],
+      "bestFor": "Podcasts, YouTube edits and devlog videos",
+      "url": "https://www.descript.com",
+      "tags": [
+        "podcast",
+        "editor",
+        "voice"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        23
+      ],
+      "id": "otter",
+      "name": "Otter.ai",
+      "categories": [
+        "productivity",
+        "audio"
+      ],
+      "pricing": "Basic free (300 min/mo); Pro $16.99/mo ($8.33/mo annual); Business $30/user/mo ($19.99 annual)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Live meeting transcription for Zoom, Meet, Teams",
+        "AI chat across meetings",
+        "Has an MCP server"
+      ],
+      "weaknesses": [
+        "Free plan caps conversations at 30 min",
+        "Meeting bot joins your calls"
+      ],
+      "bestFor": "Meeting transcripts and searchable notes",
+      "url": "https://otter.ai",
+      "tags": [
+        "meetings",
+        "transcription",
+        "mcp"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        24
+      ],
+      "id": "granola",
+      "name": "Granola",
+      "categories": [
+        "productivity"
+      ],
+      "pricing": "Basic free (30-day history); Business $14/user/mo; Enterprise $35/user/mo",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Bot-free meeting notes from device audio",
+        "Templates and AI chat across meetings",
+        "MCP integration for Claude/ChatGPT"
+      ],
+      "weaknesses": [
+        "Free plan only shows last 30 days",
+        "Integrations need Business"
+      ],
+      "bestFor": "Clean AI meeting notes without a bot in the call",
+      "url": "https://www.granola.ai",
+      "tags": [
+        "meetings",
+        "notes",
+        "mcp"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        25
+      ],
+      "id": "gamma",
+      "name": "Gamma",
+      "categories": [
+        "productivity",
+        "write"
+      ],
+      "pricing": "Free (400 one-time credits); Plus $9/mo annual ($12 monthly); Pro $18/mo annual ($25 monthly)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Decks, docs and one-page sites from a prompt",
+        "Exports to PPTX and Google Slides",
+        "Custom domains on Pro"
+      ],
+      "weaknesses": [
+        "Free credits do not refill",
+        "Generated decks still need editing"
+      ],
+      "bestFor": "Pitch decks, game design docs and quick landing pages",
+      "url": "https://gamma.app",
+      "tags": [
+        "slides",
+        "docs",
+        "websites"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        26
+      ],
+      "id": "meshy",
+      "name": "Meshy",
+      "categories": [
+        "games",
+        "images"
+      ],
+      "pricing": "Free (100 credits/mo, attribution); Pro $20/mo (1,000 credits)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Text/image to 3D models",
+        "Game-ready exports and API on Pro",
+        "Commercial use available"
+      ],
+      "weaknesses": [
+        "Free tier has low queue priority and limited downloads",
+        "Models often need cleanup for production"
+      ],
+      "bestFor": "Quick 3D props and prototype assets for indie games",
+      "url": "https://www.meshy.ai",
+      "tags": [
+        "3d",
+        "assets",
+        "api"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        27
+      ],
+      "id": "notebooklm",
+      "name": "NotebookLM (Gemini Notebook)",
+      "categories": [
+        "research",
+        "productivity",
+        "write"
+      ],
+      "pricing": "Free with a Google account; higher limits with Google AI Pro ($19.99/mo)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "strengths": [
+        "Grounded answers from your own sources",
+        "Audio overviews (podcast-style summaries)",
+        "Generous free limits"
+      ],
+      "weaknesses": [
+        "Works only over sources you add",
+        "Google account required"
+      ],
+      "bestFor": "Studying docs, papers and patch notes with citations",
+      "url": "https://notebooklm.google.com",
+      "tags": [
+        "research",
+        "google",
+        "citations"
+      ]
+    },
+    {
+      "affiliateParam": null,
+      "sourceIds": [
+        28
+      ],
+      "id": "zapier",
+      "name": "Zapier (AI by Zapier)",
+      "categories": [
+        "agents",
+        "productivity"
+      ],
+      "pricing": "Free (100 tasks/mo, AI steps preview only); Professional from $19.99/mo annual ($29.99 monthly)",
+      "pricingTier": "freemium",
+      "freeTier": true,
+      "skillLevels": [
+        "beginner",
+        "intermediate"
+      ],
+      "strengths": [
+        "Connects 7,000+ apps",
+        "AI steps and agents inside workflows",
+        "No code required"
+      ],
+      "weaknesses": [
+        "AI workflows need a paid plan",
+        "Task-based pricing adds up"
+      ],
+      "bestFor": "No-code automations and simple AI agents across your apps",
+      "url": "https://zapier.com",
+      "tags": [
+        "automation",
+        "no-code",
+        "agent"
+      ]
+    }
+  ]
+}
