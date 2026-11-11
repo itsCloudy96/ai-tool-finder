@@ -7,6 +7,7 @@ SITE = 'Cloudy AI Tool Finder'
 X_HANDLE = 'ItsCloudySpace'
 NEWS = 'https://cloudys-newsletter.beehiiv.com/subscribe'
 PROMPTS_SITE = 'https://itscloudy96.github.io/prompt-library/'
+KITS_SITE = 'https://itscloudy96.github.io/game-dev-kits/'
 TODAY = datetime.date.today().isoformat()
 src, out = Path('src'), Path('dist')
 D = json.load(open('data/tools.json'))
@@ -30,7 +31,7 @@ def badge(t):
     c = {'free':'free','paid':'paid'}.get(t['pricingTier'],'')
     return f'<span class="badge {c}">{e(t["pricingTier"])}</span>'
 def jl(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False).replace('</','<\\/') + '</script>'
-ORG = {"@type":"Organization","name":"Cloudy","url":BASE+'/',"sameAs":[f"https://x.com/{X_HANDLE}","https://cloudys-newsletter.beehiiv.com",PROMPTS_SITE]}
+ORG = {"@type":"Organization","name":"Cloudy","url":BASE+'/',"sameAs":[f"https://x.com/{X_HANDLE}","https://cloudys-newsletter.beehiiv.com",PROMPTS_SITE,KITS_SITE]}
 
 def page(path, title, desc, body, root, ld=None, ogtype='website'):
     url = BASE + '/' + path
@@ -60,7 +61,7 @@ def page(path, title, desc, body, root, ld=None, ogtype='website'):
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="container nav">
 <a class="logo" href="{root}"><span class="logo-mark" aria-hidden="true">☁️</span>Cloudy <span class="muted" style="font-weight:600">AI Tool Finder</span></a>
-<nav class="nav-links" aria-label="Main"><a href="{root}#quiz-start">Quiz</a><a href="{root}tools/">All tools</a><a href="{PROMPTS_SITE}">Prompts</a><a href="{root}category/">Categories</a><a href="{root}about/">About</a><a href="{NEWS}" target="_blank" rel="noopener">Newsletter</a></nav>
+<nav class="nav-links" aria-label="Main"><a href="{root}#quiz-start">Quiz</a><a href="{root}tools/">All tools</a><a href="{PROMPTS_SITE}">Prompts</a><a href="{KITS_SITE}">Kits</a><a href="{root}about/">About</a><a href="{NEWS}" target="_blank" rel="noopener">Newsletter</a></nav>
 </div></header>
 <main id="main" class="container">
 {body}
@@ -69,7 +70,7 @@ def page(path, title, desc, body, root, ld=None, ogtype='website'):
 <div><strong>☁️ Cloudy</strong><p>Find the right AI tool in 30 seconds. Curated tools for builders, gamers and vibe coders.</p>
 <form class="newsletter" action="{NEWS}" method="get" target="_blank"><input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required><button class="btn btn-primary" type="submit">Get the daily AI agent brief</button></form></div>
 <div><strong>Explore</strong><br>{'<br>'.join(f'<a href="{root}category/{k}/">{e(v)}</a>' for k,v in CATS.items())}</div>
-<div><strong>Cloudy</strong><br><a href="{root}about/">About &amp; disclosure</a><br><a href="{root}about/#sponsor">Sponsor Cloudy</a><br><a href="{PROMPTS_SITE}">Prompt Library</a><br><a href="https://x.com/{X_HANDLE}" target="_blank" rel="noopener">@{X_HANDLE} on X</a><br><a href="{root}llms.txt">llms.txt</a><br><a href="{root}sitemap.xml">Sitemap</a></div>
+<div><strong>Cloudy</strong><br><a href="{root}about/">About &amp; disclosure</a><br><a href="{root}about/#sponsor">Sponsor Cloudy</a><br><a href="{PROMPTS_SITE}">Prompt Library</a><br><a href="{KITS_SITE}">Game Dev Kits</a><br><a href="https://x.com/{X_HANDLE}" target="_blank" rel="noopener">@{X_HANDLE} on X</a><br><a href="{root}llms.txt">llms.txt</a><br><a href="{root}sitemap.xml">Sitemap</a></div>
 </div><div class="container disclaimer" style="margin-top:1rem">© {datetime.date.today().year} Cloudy. Prices and features change often; confirm on each vendor's site. Data last reviewed {e(D['generatedAt'])}. Some outbound links may be affiliate links.</div></footer>
 <script src="{root}js/app.js?v={TODAY}" defer></script>
 </body></html>'''
@@ -113,6 +114,7 @@ def build():
 <section class="section card"><h2>Get the daily AI agent brief</h2><p class="muted">New agent tools, model updates and vibe-coding tricks in a 3-minute read. Free.</p>
 <form class="newsletter" action="{NEWS}" method="get" target="_blank"><input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required><button class="btn btn-primary" type="submit">Subscribe free</button></form></section>
 <section class="section"><h2>Also from Cloudy</h2><div class="grid"><a class="card" href="{PROMPTS_SITE}" style="color:var(--text);text-decoration:none"><strong>☁️ Prompt Library</strong><p class="muted" style="margin:.4rem 0 0">64 original, copy-ready prompts and agent configs for Cursor, Claude, ChatGPT and more.</p></a>
+<a class="card" href="{KITS_SITE}" style="color:var(--text);text-decoration:none"><strong>☁️ Game Dev Kits</strong><p class="muted" style="margin:.4rem 0 0">Free, playable starter games with a downloadable zip and a vibe-coding prompt pack.</p></a>
 <a class="card" href="{NEWS}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none"><strong>✉️ Cloudy newsletter</strong><p class="muted" style="margin:.4rem 0 0">The daily AI agent changelog, in a 3-minute read. Free.</p></a></div></section>
 <section class="section faq"><h2>FAQ</h2>{''.join(f'<details><summary>{e(q)}</summary><p class="muted">{e(a)}</p></details>' for q,a in faqs)}</section>'''
     ld = [{"@context":"https://schema.org","@type":"WebSite","name":SITE,"url":BASE+'/',"description":"Quiz and directory that matches you with the right AI tools.","publisher":ORG,
@@ -178,6 +180,7 @@ def build():
     body = f'''<p class="crumbs"><a href="../">Home</a> / About</p><section class="section prose"><h1>About Cloudy</h1>
 <p>Cloudy builds free, fast tools for people into AI, AI agents, vibe coding, tech and video games. The AI Tool Finder matches you with the right tools in 30 seconds, from a hand-curated list of {len(TOOLS)} real products.</p>
 <p>Need a prompt instead of a product? The <a href="{PROMPTS_SITE}">Cloudy Prompt Library</a> has original, copy-ready system prompts, Cursor rules, agent templates and more.</p>
+<p>Want to make a game? <a href="{KITS_SITE}">Cloudy Game Dev Kits</a> are free, MIT-licensed starters with a playable demo and a prompt pack.</p>
 <h2>How we pick and rank tools</h2><ul><li>Only real, publicly available tools, with pricing checked against vendor pages and recent reviews.</li><li>The quiz scores fit: goal, skill level, budget, workspace and priorities.</li><li>Money never buys a ranking. Sponsored placements are always labeled.</li></ul>
 <h2>Affiliate disclosure</h2><p>Some outbound links may be affiliate links, which means Cloudy may earn a commission at no extra cost to you. Affiliate links are marked with <code>rel="sponsored"</code> and never affect quiz results.</p>
 <h2 id="sponsor">Sponsor Cloudy</h2><p>Want your AI tool in front of builders and vibe coders? Sponsor slots are available on the site and in the Cloudy newsletter. Send a DM to <a href="https://x.com/{X_HANDLE}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p>
